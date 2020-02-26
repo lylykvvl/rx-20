@@ -329,11 +329,17 @@ h3 {
   font-family: "Optimal Medium", sans-serif;
   font-size: 36px;
   color: #ffffff;
+  text-align: center;
+}
+
+.ad2__heading {
+  padding-top: 110px;
 }
 
 .ad2__text {
   text-transform: none;
   font-size: 16px;
+  margin-top: 40px;
 }
 
 .ad2-btn, .sub__btn {
@@ -349,6 +355,7 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  margin: auto;
 }
 
 .ad__3 {
@@ -363,7 +370,9 @@ h3 {
 }
 
 .sub__form {
-  display: block;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 25px 5px;
 }
 
 .sub__heading {
@@ -381,11 +390,13 @@ h3 {
   line-height: 20px;
   color: #f2f2f2;
   padding: 0 37px;
+  margin-top: -5px;
 }
 
 .sub__btn {
   display: flex;
   background: #bb4465;
+  margin-top: 15px;
 }
 
 footer {
